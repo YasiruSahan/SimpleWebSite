@@ -1,0 +1,79 @@
+<!DOKTYPE html>
+<html>
+	<head>
+		<link href="Style1.css" rel="Stylesheet" type="text/css"/>
+		<script src="CusJS.js"></script>
+	</head>
+	<body onload="setFocus();">
+		<p><font size="25px">
+<center><b>Customer Details</b></center></font></p>
+		 <form name="Myform" onload="return display()" method="POST" />
+		 <table>
+		 <tr>
+		 <td>
+		 <fieldset>
+			<table>
+				<tr>
+					<td><font size="5">Name:<span style="color:red">*</span></td><td><input type="text" name="name" id="txtName" required/></td>
+				</tr>
+				
+				<tr>
+					<td></td><td><div id="divName"></div></td>
+				</tr>
+				
+				<tr>
+				<td><font size="5">NIC:<span style="color:red">*</span></td><td><input type="text" name="nic" id="txtNic" required/></td>
+				</tr>
+				
+				<tr>
+					<td></td><td><div id="divNIC"></div></td>
+				</tr>
+				
+				<tr>
+				<td><font size="5">Gender:</td><td><input type="radio" name="gender" value="M" Checked/><font size="4">Male
+								<input type="radio" name="gender" value="F" ><font size="4">Female</td>
+				</tr>
+								
+				<tr>
+				<td><font size="5">Phone number:<span style="color:red">*</span></td><td><input type="number" name="pnumber" id="txtTP" required/></td>
+				</tr>
+				
+				<tr>
+				<td></td><td><div id="divTP"></div></td>
+				</tr>
+				
+				<tr>
+				 <td><font size="5">Address:<span style="color:red">*</span></td><td><textarea name="address" id="AreaAddress" rows="2" cols="25" required/></textarea></td>
+				</tr>
+				
+				<tr>
+				<td></td><td><div id="divAddress"></div></td>
+				</tr>
+				
+				<tr>
+				<td><font size="5">Date of Birth:<span style="color:red">*</span></td><td><input type="date" name="dob" required/></td>
+				</tr>
+				
+				<tr><td><font size="5">Need Service:</td><td><select name="service">
+												<option value="Dtraining">Driving Training</option>
+												<option value="OLicenses">Obtaining Licenses</option>
+												<option value="VRegistration">Vehicle Registration</option></select></td></tr>
+												
+				<tr><td><font size="5">Note	:</td><td><textarea name="note" rows="2" cols="25"/ ></textarea></td></tr>
+				
+				<tr colspan="2">
+					<td><input type="button" value="Check" onclick="display() "/>
+						<input type="submit" name="sub" id="btnSub"  value="submit"/> <!--onclick="confirmRequest();"--></td>
+					
+					<td><input type="Reset" name="sub" value="Reset" onclick="msg1();"/></td></tr>
+				
+														
+			</table>
+			</fieldset>
+			
+			</td>
+			</tr>
+			</table>
+		 </form>
+	</body>
+</html>

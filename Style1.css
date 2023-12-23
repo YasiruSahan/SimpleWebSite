@@ -1,0 +1,130 @@
+body{
+	width:700px;
+	height:550;
+	background-color:#ddffff;
+}
+fieldset{
+	margin-left:100px;
+	border-radius:10px;
+}
+input:{
+	border-radius:10px;
+}
+input[type=text]{
+		width:300px;	
+		padding:6px 14px;
+		font-size:16px;
+		margin:8px 0 0 0;
+		box-sizing:border-box;
+		border:2px solid #43a5be; 	
+		border-radius:10px; 		
+		background-color:white;
+}
+input[type=text]:focus {
+    background-color:#cbd6e2;
+}
+
+textarea	 {
+	width:300px;	
+	padding:6px 14px;
+	font-size:16px;
+	margin:6px 0 0 0;
+	box-sizing:border-box;						
+	border:2px solid #43a5be; 	
+	border-radius:10px; 		
+	background-color:white;
+}
+textarea:focus {
+    background-color:#cbd6e2;
+}
+
+
+input[type=number]{
+		width:300px;	
+		padding:6px 14px;
+		font-size:16px;
+		margin:8px 0 0 0;
+		box-sizing:border-box;
+		border:2px solid #43a5be; 	
+		border-radius:10px; 		
+		background-color:white;
+		
+}
+input[type=number]:focus {
+    background-color:#cbd6e2;
+}
+
+input[type=date]{
+		width:200px;
+		padding:6px 14px;
+		font-size:16px;
+		margin:6px 0 0 0;
+		box-sizing:border-box;		 
+		border:2px solid #43a5be; 	
+		border-radius:10px; 		
+		background-color:#cae7d3;	
+}
+
+
+select {
+    width:200px;
+	margin:6px 0 0 0;
+	color:white;
+	padding:6px 14px;
+    border:2px solid #43a5be;
+    border-radius: 10px;
+    background-color:#0000aa;
+}
+input[type=button]{
+		
+		padding:12px 20px;
+		font-size:20px;
+		color:black;
+		margin:8px 0px;
+		box-sizing:border-box;
+		border:2px solid red; 	
+		border-radius:10px; 	
+		background-color:yellow;
+}
+input[type=button]:focus {
+    background-color:gold; 
+}
+
+input[type=submit]{
+		
+		padding:12px 20px;
+		font-size:20px;
+		color:white;
+		margin:8px 0px;
+		box-sizing:border-box;
+		border:2px solid red; 	
+		border-radius:10px; 	
+		background-color:blue;
+}
+input[type=submit]:focus {
+    background-color:gold; 
+}
+
+
+input[type=reset]{
+		
+		padding:12px 20px;
+		font-size:20px;
+		color:white;
+		margin:8px 0;
+		box-sizing:border-box;
+		 border:2px solid red; 	
+		border-radius:10px; 		
+		background-color:#555555;
+}
+input[type=reset]:focus {
+    background-color:gold; 
+}
+
+label{
+	color:white;
+	font-family:a
+	font-size:20px;
+	font-weight:bold;
+	margin:15px;
+}

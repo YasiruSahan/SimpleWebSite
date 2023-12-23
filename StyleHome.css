@@ -1,0 +1,10 @@
+body{
+	width:700px;
+	height:550;
+	background-color:#ebeeee;
+	
+}
+fieldset{
+	border-color:black;
+	margin-left:35px;
+}
